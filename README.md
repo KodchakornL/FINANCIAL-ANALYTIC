@@ -1,2 +1,4 @@
-# FINANCIAL-ANALYTIC
-Machine Learning Credit scoring and Fraud Detection
+# FINANCIAL Data minning  
+Machine Learning Credit scoring and Fraud Detection  
+
+## Credit scoring
