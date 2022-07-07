@@ -22,8 +22,8 @@ In this project, we are tasked to help the troubled lenders with this problem by
 Credit card and home loans are two very good examples of credit given to a borrower by a lender. Money in a credit card is not ours, We need to pay it back. If we fail to pay it, we need to repay with interest. Home loans are another type of credit given. For this, we have a collateral i.e, this could be used to recover money if the customers fails to pay back. Asset financing is another good example of credit. Organizations don't buy the assets at one go instead they finance it and pay it over the time.  
 
 ### Column Description
-Table | Columns | Description
------ | ------- | -----------
+No. | Table | Columns | Description
+----- | ----- | ------- | -----------
 loanapptrain.csv / loanapptest.csv | LN_ID | Loan ID
 loanapptrain.csv / loanapptest.csv | TARGET | Target variable ( 1 = client with late payment more than x days; 0 = all other cases)
 loanapptrain.csv / loanapptest.csv | CONTRACT_TYPE | Identification if loan is cash or revolving
