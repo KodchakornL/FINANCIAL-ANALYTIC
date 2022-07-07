@@ -1,5 +1,5 @@
 # FINANCIAL Anarytic
-[![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-MySQL-blue)](#) [![](https://img.shields.io/badge/--blue)](#) [![](https://img.shields.io/badge/-MySQL-blue)](#)  
+[![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-MySQL-blue)](#) [![](https://img.shields.io/badge/-tensorflow-blue)](#) [![](https://img.shields.io/badge/-Randomforest-blue)](#)  
  
 Machine Learning Credit scoring and Fraud Detection  
 
