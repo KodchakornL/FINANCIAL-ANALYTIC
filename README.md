@@ -23,10 +23,10 @@ Credit card and home loans are two very good examples of credit given to a borro
 
 ### Column Description
 No. | Table | Columns | Description
------ | ----- | ------- | -----------
-1. | loanapptrain.csv / loanapptest.csv | LN_ID | Loan ID
-2. | loanapptrain.csv / loanapptest.csv | TARGET | Target variable ( 1 = client with late payment more than x days; 0 = all other cases)
-3. | loanapptrain.csv / loanapptest.csv | CONTRACT_TYPE | Identification if loan is cash or revolving
+--- | ----- | ------- | -----------
+1 | loanapptrain.csv / loanapptest.csv | LN_ID | Loan ID
+2 | loanapptrain.csv / loanapptest.csv | TARGET | Target variable ( 1 = client with late payment more than x days; 0 = all other cases)
+3 | loanapptrain.csv / loanapptest.csv | CONTRACT_TYPE | Identification if loan is cash or revolving
 4. | loanapptrain.csv / loanapptest.csv | GENDER | Gender of the client
 5. | loanapptrain.csv / loanapptest.csv | NUM_CHILDREN | Number of children the client has
 6. | loanapptrain.csv / loanapptest.csv | INCOME | Monthly income of the client
