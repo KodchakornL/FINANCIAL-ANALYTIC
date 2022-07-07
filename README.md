@@ -71,3 +71,78 @@ No. | Table | Columns | Description
 45 | installment_payment.csv | PAY_DAYS | When was the installments of previous credit paid actually (relative to application date of current loan)
 46 | installment_payment.csv | AMT_INST | What was the prescribed installment amount of previous credit on this installment
 47 | installment_payment.csv | AMT_PAY | What the client actually paid on previous credit on this installment
+
+1. Dataset Preparation
+    - We've tried to import raw dataset directly using Python Library `(Pandas and Dask)` but we encountered problems due to our less sufficiency memory size. We decided to use another method.
+    - We decided to do formatting the raw CSV dataset using both Microsoft Excel and SQL combined.
+    - First, we did CSV formatting using Microsoft Excel, replaced the blank values with Null to avoid truncated data warning in SQL, removed thousand separator and then saved it.
+    - After that, we imported the formatted CSV to SQL using `LOAD DATA INFILE` Query. The query was succesfull. In the end, we got 6 tables in 1 schema as equal to 6 raw CSV data we received.
+    - After we joined some tables, we exported them into new sql and csv data. Then we proceed to Exploratory Data Analysis step. We decided to limit data rows for 15000 rows due to efficiency reason
+2. Exploratory Data Analysis
+    - Importing new formatted CSV
+    - Descriptive Analysis
+    - Client/Customer's Profiling
+    - Client/Customer's Behaviour
+3. Preprocessing
+    - Value Encoding: This step is for preparing the dataset to be ready feature selected and modelled
+    - Feature Selection : Correlation Analysis, Random Forrest, and SelectKBest (f_classif)
+    - From the feature selection, we understand that; 'EXT_SCORE_1 is the most important feature in this credit risk modelling as followed by 'EXT_SCORE_3' and 'EXT_SCORE_2'
+4. Model Building
+    - Handling Imbalance Target
+        - Oversampling using SMOTE
+        - Undersampling using NearMiss
+        - We knew that Oversampling technique has far better result than undersampling in handling imbalanced dataset. So, we decided to use oversampling technique in advance.
+    - Logistic Regression before and after Tuning
+    - Random Forrest Classifier before and after Tuning
+    - Decision Tree Classifier before and after Tuning
+
+### Evaluation Metrics in Data Train
+#### 1. Random Forrest Before Tuning
+No | Metrics | Score
+-- | ------- | -----
+1 | Accuracy | 0.84
+2 | Recall | 0.16
+3 | Precision | 0.12
+4 | ROC AUC Score | 0.53
+5 | F1 Score | 0.14
+#### 2. Neural Network
+No | Metrics | Score
+-- | ------- | -----
+1 | Accuracy | 0.92
+2 | Recall | 0
+3 | Precision | 0
+4 | ROC AUC Score | 0.50
+5 | F1 Score | 0
+
+### Evaluation Metrics in Data Test
+#### 1. Random Forrest
+No | Metrics | Score
+-- | ------- | -----
+1 | Accuracy | 0.80
+#### 2. Neural Network
+No | Metrics | Score
+-- | ------- | -----
+1 | Accuracy | 0.55
+
+## Conclusion
+1. Neural Network with Oversampling Technique Algorithm (SMOTE) has better accuracy (92%) for the train dataset than Logistic Regression, Random Forrest and Decision Tree in both after tuned or before tuned. However, Evaluation Metrics show that Random Forrest algorithm has better accuracy, which is 80.24% in Test Dataset than Neural Network.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
