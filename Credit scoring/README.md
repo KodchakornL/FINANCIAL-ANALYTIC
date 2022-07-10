@@ -1,4 +1,4 @@
-# Credit scoring
+# Credit scoring model
 [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-MySQL-blue)](#) [![](https://img.shields.io/badge/-tensorflow-green)](#) [![](https://img.shields.io/badge/-Randomforest-green)](#)  
   
 ### Project Intro/Objective
