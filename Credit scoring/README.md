@@ -1,9 +1,6 @@
-# FINANCIAL Anarytic
+# Credit scoring
 [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-MySQL-blue)](#) [![](https://img.shields.io/badge/-tensorflow-green)](#) [![](https://img.shields.io/badge/-Randomforest-green)](#)  
- 
-Machine Learning Credit scoring and Fraud Detection  
-
-## Credit scoring
+  
 ### Project Intro/Objective
 The purpose of this project is helping the troubled lenders with this problem by creating a model that can help them make their decision. 
 
