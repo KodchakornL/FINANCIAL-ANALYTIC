@@ -20,35 +20,7 @@ dataset : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 * Feature Selection using Random Forrest and SelectKBest (f_classif)
 * Predictive Modeling
 * Evaluation Metrix
-
-### Evaluation Metrics in Data Train
-#### 1. Random Forrest Before Tuning
-No | Metrics | Score
--- | ------- | -----
-1 | Accuracy | 0.84
-2 | Recall | 0.16
-3 | Precision | 0.12
-4 | ROC AUC Score | 0.53
-5 | F1 Score | 0.14
-#### 2. Neural Network
-No | Metrics | Score
--- | ------- | -----
-1 | Accuracy | 0.92
-2 | Recall | 0
-3 | Precision | 0
-4 | ROC AUC Score | 0.50
-5 | F1 Score | 0
-
-### Evaluation Metrics in Data Test
-#### 1. Random Forrest
-No | Metrics | Score
--- | ------- | -----
-1 | Accuracy | 0.80
-#### 2. Neural Network
-No | Metrics | Score
--- | ------- | -----
-1 | Accuracy | 0.55
-
+  
 ## Conclusion  
 Accuracy and F1-Score for this Random Forest Classifier + gini and Random Forest Classifier + entropy is almost 1 %. its almost perfect and no need to finetune more. accuracy score, Precision, Recall, f1_score near 1  
 
