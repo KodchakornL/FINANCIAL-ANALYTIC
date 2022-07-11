@@ -121,7 +121,7 @@ No | Metrics | Score
 -- | ------- | -----
 1 | Accuracy | 0.5119
 
-## **Conclusion**
+### **Conclusion**
 From the Evaluation Metrics, we understand that Random forest with Oversampling Technique Algorithm (SMOTE) has better accuracy ( 83.84% ) for the train dataset than Logistic Regression, Random Forrest and Decision Tree in both after tuned or before tuned. However, Evaluation Metrics show that Random Forrest algorithm has better accuracy, which is 80.43% in Test Dataset than Neural Network.
 
 
