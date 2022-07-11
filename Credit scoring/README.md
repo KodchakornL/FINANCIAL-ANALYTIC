@@ -97,15 +97,15 @@ No. | Table | Columns | Description
 #### 1. Random Forrest Before Tuning
 No | Metrics | Score
 -- | ------- | -----
-1 | Accuracy | 0.84
-2 | Recall | 0.16
-3 | Precision | 0.12
-4 | ROC AUC Score | 0.53
-5 | F1 Score | 0.14
+1 | Accuracy | 0.8043
+2 | Recall | 0.3467
+3 | Precision | 0.1413
+4 | ROC AUC Score | 0.5930
+5 | F1 Score | 0.2008
 #### 2. Neural Network
 No | Metrics | Score
 -- | ------- | -----
-1 | Accuracy | 0.92
+1 | Accuracy | 0.9291
 2 | Recall | 0
 3 | Precision | 0
 4 | ROC AUC Score | 0.50
@@ -115,11 +115,11 @@ No | Metrics | Score
 #### 1. Random Forrest
 No | Metrics | Score
 -- | ------- | -----
-1 | Accuracy | 0.80
+1 | Accuracy | 0.8043
 #### 2. Neural Network
 No | Metrics | Score
 -- | ------- | -----
-1 | Accuracy | 0.55
+1 | Accuracy | 0.5119
 
 ## Conclusion
 ## **Conclusion**
