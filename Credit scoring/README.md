@@ -15,7 +15,7 @@ In this project, we are tasked to help the troubled lenders with this problem by
 * Predictive Modeling
 * Evaluation Metrix
 
-## Important Concepts
+### Important Concepts
 Credit card and home loans are two very good examples of credit given to a borrower by a lender. Money in a credit card is not ours, We need to pay it back. If we fail to pay it, we need to repay with interest. Home loans are another type of credit given. For this, we have a collateral i.e, this could be used to recover money if the customers fails to pay back. Asset financing is another good example of credit. Organizations don't buy the assets at one go instead they finance it and pay it over the time.  
 
 ### Column Description
@@ -121,7 +121,6 @@ No | Metrics | Score
 -- | ------- | -----
 1 | Accuracy | 0.5119
 
-## Conclusion
 ## **Conclusion**
 From the Evaluation Metrics, we understand that Random forest with Oversampling Technique Algorithm (SMOTE) has better accuracy ( 83.84% ) for the train dataset than Logistic Regression, Random Forrest and Decision Tree in both after tuned or before tuned. However, Evaluation Metrics show that Random Forrest algorithm has better accuracy, which is 80.43% in Test Dataset than Neural Network.
 
