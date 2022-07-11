@@ -1,8 +1,9 @@
 # Credit scoring model
 [![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-MySQL-blue)](#) [![](https://img.shields.io/badge/-tensorflow-green)](#) [![](https://img.shields.io/badge/-Ensemble_model-green)](#)  
   
-### Project Intro/Objective
-The purpose of this project is helping the troubled lenders with this problem by creating a model that can help them make their decision. 
+### Objective
+The purpose of this project is helping the troubled lenders with this problem by creating a model that can help them make their decision.  
+Build a machine learning model to predict if an applicant is 'good' or 'bad' client, different from other tasks, the definition of 'good' or 'bad' is not given. You should use some techique, such as vintage analysis to construct you label. Also, unbalance data problem is a big problem in this task.  
 
 ### Project Description
 For most financial institutions, such as banks and multi-finance companies, their main source of income is coming from their lending activities. By engaging in this activity, it means that lenders are exposed to the potential risk, where debtors stop repaying their loans, causing losses to the lenders. To mitigate this loss, lenders are expected to appropriately choose who are qualified for a loan, at what rate, and at what amount.
@@ -17,6 +18,10 @@ In this project, we are tasked to help the troubled lenders with this problem by
 
 ### Important Concepts
 Credit card and home loans are two very good examples of credit given to a borrower by a lender. Money in a credit card is not ours, We need to pay it back. If we fail to pay it, we need to repay with interest. Home loans are another type of credit given. For this, we have a collateral i.e, this could be used to recover money if the customers fails to pay back. Asset financing is another good example of credit. Organizations don't buy the assets at one go instead they finance it and pay it over the time.  
+
+### Dataset
+
+Relate data : https://www.kaggle.com/datasets/rikdifos/credit-card-approval-prediction
 
 ### Column Description
 No. | Table | Columns | Description
