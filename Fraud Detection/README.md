@@ -1,5 +1,5 @@
 # Fraud Detection model
-[![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-MySQL-blue)](#) [![](https://img.shields.io/badge/-tensorflow-green)](#) [![](https://img.shields.io/badge/-Ensenble-model-green)](#)  
+[![](https://img.shields.io/badge/-Python-blue)](#) [![](https://img.shields.io/badge/-MySQL-blue)](#) [![](https://img.shields.io/badge/-tensorflow-green)](#) [![](https://img.shields.io/badge/-Ensenble_model-green)](#)  
 
 ## Project Intro/Objective
 The purpose of this project is helping the troubled lenders with this problem by creating a model that can help them make their decision. 
