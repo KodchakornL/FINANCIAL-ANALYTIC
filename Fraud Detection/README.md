@@ -19,17 +19,17 @@ dataset : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 * Evaluation Metrix
 
 ## Evaluation
-**Isolation forest**
+### **Isolation forest**  
 <img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Isolation%20Forest%20result.png" width="450" height="250" />  
 <img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Isolation%20Forest%20confusion%20matrix.png" width="450" height="250" />  
 <img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Isolation%20Forest%20ROC%20AUC.png" width="450" height="250" />  
   
-**Randon forest**
-<img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20Forest%20result.png" width="450" height="250" />  
-<img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20Forest%20confusion%20matrix.png" width="450" height="250" />  
-<img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20Forest%20ROC%20AUC.png" width="450" height="250" />  
+### **Randon forest**  
+<img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20forest%20Result.png" width="450" height="250" />  
+<img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20forest%20confusion%20matrix.png" width="450" height="250" />  
+<img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20forest%20ROC%20AUC.png" width="450" height="250" />  
 <img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20forest%20tree.png" width="450" height="250" />  
-  
+    
 ## Conclusion  
 Accuracy and F1-Score for this Random Forest Classifier + gini and Random Forest Classifier + entropy is almost 1 %. its almost perfect and no need to finetune more. accuracy score, Precision, Recall, f1_score near 1. Our Random Forest result in most cases exceeds the previously reported results with a Matthews Correlation Coefficient of 0.8691. Other performance characteristics are also satisfactory so now we don’t need to apply some other model to this.  
   
