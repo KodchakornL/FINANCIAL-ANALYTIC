@@ -25,7 +25,7 @@ dataset : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 <img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Isolation%20Forest%20ROC%20AUC.png" width="450" height="250" />  
   
 ### **Randon forest**  
-<img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20forest%20Result.png" width="450" height="250" />  
+<img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20forest%20Result.png" width="700" height="350" />  
 <img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20forest%20confusion%20matrix.png" width="450" height="250" />  
 <img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20forest%20ROC%20AUC.png" width="450" height="250" />  
 <img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20forest%20tree.png" width="450" height="250" />  
