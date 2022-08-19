@@ -20,14 +20,15 @@ dataset : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 ## Evaluation
 **Isolation forest**
-<img src="https://github.com/KodchakornL/Thai-music-lyrics-generated-with-RNN/blob/main/slide_ppt/picture_No.10.png" width="450" height="250" /> <img src="https://github.com/KodchakornL/Thai-music-lyrics-generated-with-RNN/blob/main/slide_ppt/picture_No.11.png" width="450" height="250" />  
-<img src="https://github.com/KodchakornL/Thai-music-lyrics-generated-with-RNN/blob/main/slide_ppt/picture_No.12.png" width="450" height="250" /> <img src="https://github.com/KodchakornL/Thai-music-lyrics-generated-with-RNN/blob/main/slide_ppt/picture_No.13.png" width="450" height="250" />  
-<img src="https://github.com/KodchakornL/Thai-music-lyrics-generated-with-RNN/blob/main/slide_ppt/picture_No.14.png" width="450" height="250" />  
+<img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Isolation%20Forest%20result.png" width="450" height="250" />  
+<img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Isolation%20Forest%20confusion%20matrix.png" width="450" height="250" />  
+<img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Isolation%20Forest%20ROC%20AUC.png" width="450" height="250" />  
   
 **Randon forest**
- <img src="https://github.com/KodchakornL/Thai-music-lyrics-generated-with-RNN/blob/main/slide_ppt/picture_No.10.png" width="450" height="250" /> <img src="https://github.com/KodchakornL/Thai-music-lyrics-generated-with-RNN/blob/main/slide_ppt/picture_No.11.png" width="450" height="250" />  
-<img src="https://github.com/KodchakornL/Thai-music-lyrics-generated-with-RNN/blob/main/slide_ppt/picture_No.12.png" width="450" height="250" /> <img src="https://github.com/KodchakornL/Thai-music-lyrics-generated-with-RNN/blob/main/slide_ppt/picture_No.13.png" width="450" height="250" />  
-<img src="https://github.com/KodchakornL/Thai-music-lyrics-generated-with-RNN/blob/main/slide_ppt/picture_No.14.png" width="450" height="250" />  
+<img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20Forest%20result.png" width="450" height="250" />  
+<img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20Forest%20confusion%20matrix.png" width="450" height="250" />  
+<img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20Forest%20ROC%20AUC.png" width="450" height="250" />  
+<img src="https://github.com/KodchakornL/FINANCIAL-ANALYTIC/blob/main/Fraud%20Detection/Result/Random%20forest%20tree.png" width="450" height="250" />  
   
 ## Conclusion  
 Accuracy and F1-Score for this Random Forest Classifier + gini and Random Forest Classifier + entropy is almost 1 %. its almost perfect and no need to finetune more. accuracy score, Precision, Recall, f1_score near 1. Our Random Forest result in most cases exceeds the previously reported results with a Matthews Correlation Coefficient of 0.8691. Other performance characteristics are also satisfactory so now we don’t need to apply some other model to this.  
