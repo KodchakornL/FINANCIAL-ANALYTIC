@@ -17,6 +17,11 @@ dataset : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 * Feature Selection using Random Forrest and SelectKBest (f_classif)
 * Predictive Modeling
 * Evaluation Metrix
+
+## Evaluation
+**Isolation forest**
+
+**Randon forest**
   
 ## Conclusion  
 Accuracy and F1-Score for this Random Forest Classifier + gini and Random Forest Classifier + entropy is almost 1 %. its almost perfect and no need to finetune more. accuracy score, Precision, Recall, f1_score near 1. Our Random Forest result in most cases exceeds the previously reported results with a Matthews Correlation Coefficient of 0.8691. Other performance characteristics are also satisfactory so now we don’t need to apply some other model to this.  
